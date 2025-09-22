@@ -1,0 +1,25 @@
+# Archivos de datos
+data/
+*.sqlite
+*.db
+db.sqlite3
+*.sql
+
+# Archivos de configuración
+*.env
+*.env.local
+
+# Archivos de caché
+__pycache__/
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+
+# Archivos de vscode
+.vscode/
+.idea/
+
