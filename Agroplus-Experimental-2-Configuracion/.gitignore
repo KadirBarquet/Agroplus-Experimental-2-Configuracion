@@ -23,3 +23,19 @@ logs/
 .vscode/
 .idea/
 
+# Carpetas de entornos virtuales
+venv/
+env/
+.venv/
+.ENV/
+
+# Archivos de package-lock.json
+package-lock.json
+
+# Archivos de node_modules
+node_modules/
+
+# Archivos de build
+dist/
+build/
+
