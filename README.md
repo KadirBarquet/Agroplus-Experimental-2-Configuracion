@@ -1,16 +1,24 @@
 # AgroPlus - Sistema de Gestión Agrícola
 
 ## Descripción
-El proyecto tiene como objetivo la gestión de la información de los productos agrícolas, la gestión de la información de los usuarios y la gestión de las compras. Esto con el fin de mejorar la gestión de los productos y la organización del trabajo de los usuarios mediante la creación de un sistema de gestión agrícola..
+Sistema web desarrollado en Django para la gestión de productos agrícolas con manejo de imágenes y contenedorización Docker.
 
-## Tecnologías
-- Python 3.x
-- Django 4.x
-- [Otras tecnologías que uses]
+## Tecnologías utilizadas
+- Django 4.0+
+- Docker & Docker Compose
+- PostgreSQL
+- Python 3.9
+- Pillow (manejo de imágenes)
+- GitHub Actions (CI/CD)
 
-## Instalación
-1. Clona el repositorio
-2. Instala dependencias: `pip install -r requirements.txt`
-3. Ejecuta migraciones: `python manage.py migrate`
-4. Inicia el servidor: `python manage.py runserver`
+## Instalación con Docker
 
+### Requisitos previos
+- Docker Desktop instalado y corriendo
+- Git instalado
+
+### Pasos para ejecutar
+1. Clonar el repositorio:
+```bash
+   git clone https://github.com/tu-usuario/agroplus-experimental-2-configuracion.git
+   cd agroplus-experimental-2-configuracion
