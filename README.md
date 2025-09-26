@@ -22,3 +22,7 @@ Sistema web desarrollado en Django para la gestión de productos agrícolas con 
 ```bash
    git clone https://github.com/tu-usuario/agroplus-experimental-2-configuracion.git
    cd agroplus-experimental-2-configuracion
+
+# Si no tienes usuario en GitHub, crea uno
+   git config --global user.name "tu-usuario"
+   git config --global user.email "tu-email@tu-dominio.com"
